@@ -9,7 +9,7 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 SUPERIOR_OFFICIAL := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_MATLOG := true
