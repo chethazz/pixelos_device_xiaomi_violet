@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_violet.mk
+    $(LOCAL_DIR)/aosp_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_violet-eng \
-    superior_violet-userdebug \
-    superior_violet-user
+    aosp_violet-eng \
+    aosp_violet-userdebug \
+    aosp_violet-user
